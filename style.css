@@ -1,0 +1,86 @@
+body {
+  background: linear-gradient(90deg, #010f01, black);
+}
+
+#content {
+  padding-top: 20px;
+  margin-left: 500px;
+  display: grid;
+  flex-direction: column;
+  width: 500px;
+  height: 350px;
+}
+header {
+  margin-top: 4px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-family: "Times New Roman";
+  border: 3px solid rgb(164, 168, 206);
+}
+.message {
+  background: linear-gradient(90deg, #cfc8c2, #2a0a0a);
+  color: white;
+  text-align: center;
+  font-family: "Times New Roman";
+  border: 3px solid rgb(164, 168, 206);
+}
+
+#messege{
+color: white;
+}
+#newName {
+  border: 3px solid black;
+  font-family: monospace;
+  color: rgb(144, 113, 173);
+  font-size: 20px;
+  background-color: white;
+  border-radius: 20px;
+
+}
+
+#addText {
+  font-size: 20px;
+  font-family: monospace;
+  background-color: black;
+  color: white;
+  border-radius: 20px;
+}
+#addText:hover {
+  background-color: blue;
+}
+
+
+#vip {
+  font-size: 20px;
+  font-family: monospace;
+  background-color: black;
+  color: white;
+  border-radius: 20px;
+}
+#vip:hover{
+  background-color: orangered;
+}
+
+#remove {
+  font-size: 20px;
+  font-family: monospace;
+  background-color: rgb(4, 36, 4);
+  color: white;
+  border-radius: 20px;
+}
+#remove:hover{
+  background-color: green;
+}
+#myList {
+  color: white;
+  font-family: monospace;
+}
+
+img {
+  border-radius: 8px;
+  width: 500px;
+  height: 300px;
+  margin-left: 500px;
+  opacity: 0.1;
+}
